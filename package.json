@@ -1,0 +1,18 @@
+{
+  "name": "pokemon-api",
+  "version": "1.0.0",
+  "description": "API Rest",
+  "main": "appPoke.js",
+  "scripts": {
+    "start": "nodemon appPoke.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
