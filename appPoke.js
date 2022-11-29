@@ -1,8 +1,11 @@
 const express = require('express')
 const {success} = require('./helper.js')
+const {logger, loggerURL} = require('./logger.js')
 let pokemons = require('./mock-pokemon')
 const appPoke = express()
 const port = 4200
+
+appPoke.use(loggerURL)
 
 appPoke.get('/', (req, res) => res.send('hello express 2 !'))
 
